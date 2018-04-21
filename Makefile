@@ -1,11 +1,5 @@
 CFLAGS+=-O2 -g
-
-IS_ARM:=$(shell bash -c 'uname -a | grep arm>/dev/null && echo 1 || echo 0')
-ifeq (${IS_ARM},1)
-CFLAGS+=-march=armv6 -mfloat-abi=hard -mfpu=vfp
-else
 CFLAGS+=-march=native
-endif
 
 all:	bench
 	
