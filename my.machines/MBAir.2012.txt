@@ -1,0 +1,48 @@
+ #####################################################
+
+ Dhrystone Benchmark 2.1 A7 32 Bit, Sun Jun  2 17:34:39 2019
+
+ Nanoseconds one Dhrystone run:        52.09
+ Dhrystones per Second:             19197799
+ VAX MIPS rating =                  10926.47
+
+ Numeric results were correct
+
+ #####################################################
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 58
+model name	: Intel(R) Core(TM) i5-3427U CPU @ 1.80GHz
+stepping	: 9
+microcode	: 0x21
+cpu MHz		: 909.672
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm cpuid_fault pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds
+bogomips	: 4589.71
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36Linux version 4.19.46-1-lts (builduser@andyrtr) (gcc version 8.3.0 (GCC)) #1 SMP Sun May 26 13:54:01 CEST 2019
+ 
+
+From File /proc/version
+Linux version 4.19.46-1-lts (builduser@andyrtr) (gcc version 8.3.0 (GCC)) #1 SMP Sun May 26 13:54:01 CEST 2019
+ 
+
+Additional information - 
+

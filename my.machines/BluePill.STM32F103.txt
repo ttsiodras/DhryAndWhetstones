@@ -1,0 +1,11 @@
+
+From ~/work/Electronics/projects/BluePillDhrystones:
+(remember to push reset button before "make upload")
+
+Dhrystone Benchmark, Version 2.1 (Language: C)
+Execution starts, 900000 runs through Dhrystone
+
+Execution ends
+Microseconds for one run through Dhrystone: 11.72
+Dhrystones per Second: 85333.26
+VAX MIPS rating = 48.57

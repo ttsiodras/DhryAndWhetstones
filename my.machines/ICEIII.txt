@@ -1,0 +1,7 @@
+ Dhrystone Benchmark 2.1 A7 32 Bit, Sat Apr 21 10:48:49 2018
+
+ Nanoseconds one Dhrystone run:       218.09
+ Dhrystones per Second:              4585316
+ VAX MIPS rating =                   2609.74
+
+ Numeric results were correct

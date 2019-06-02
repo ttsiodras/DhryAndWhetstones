@@ -1,0 +1,5 @@
+ Nanoseconds one Dhrystone run:       338.80
+ Dhrystones per Second:              2951564
+ VAX MIPS rating =                   1679.89
+
+ Numeric results were correct

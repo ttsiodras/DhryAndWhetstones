@@ -1,0 +1,29 @@
+Results:
+ #####################################################
+
+ Dhrystone Benchmark 2.1 A7 32 Bit, Sun Jun  2 17:06:53 2019
+
+ Nanoseconds one Dhrystone run:       135.45
+ Dhrystones per Second:              7382557
+ VAX MIPS rating =                   4201.80
+
+ Numeric results were correct
+
+
+##############################################
+
+Whetstone Single Precision C Benchmark  vfpv4 32 Bit, Sun Jun  2 17:06:53 2019
+
+
+Loop content                   Result              MFLOPS      MOPS   Seconds
+
+N1 floating point      -1.12475013732910156       624.128               0.047
+N2 floating point      -1.12274742126464844       438.767               0.466
+N3 if then else         1.00000000000000000                3867.156     0.041
+N4 fixed point         12.00000000000000000                2795.446     0.171
+N5 sin,cos etc.         0.49911010265350342                  29.017     4.361
+N6 floating point       0.99999982118606567       479.237               1.712
+N7 assignments          3.00000000000000000                1677.261     0.168
+N8 exp,sqrt etc.        0.75110864639282227                  18.687     3.028
+
+MWIPS                                            1522.015               9.993

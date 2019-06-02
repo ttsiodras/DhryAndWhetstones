@@ -1,0 +1,42 @@
+ #####################################################
+
+ Dhrystone Benchmark 2.1 A7 32 Bit, Sun Jun  2 17:27:44 2019
+
+ Nanoseconds one Dhrystone run:       835.23
+ Dhrystones per Second:              1197270
+ VAX MIPS rating =                    681.43
+
+ Numeric results were correct
+
+ #####################################################
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+system type		: MediaTek MT7628AN ver:1 eco:2
+machine			: GL-MT300N-V2
+processor		: 0
+cpu model		: MIPS 24KEc V5.5
+BogoMIPS		: 380.92
+wait instruction	: yes
+microsecond timers	: yes
+tlb_entries		: 32
+extra interrupt vector	: yes
+hardware watchpoint	: yes, count: 4, address/irw mask: [0x0ffc, 0x0ffc, 0x0ffb, 0x0ffb]
+isa			: mips1 mips2 mips32r1 mips32r2
+ASEs implemented	: mips16 dsp
+shadow register sets	: 1
+kscratch registers	: 0
+package			: 0
+core			: 0
+VCED exceptions		: not available
+VCEI exceptions		: not available
+
+ 
+
+From File /proc/version
+Linux version 4.14.95 (root@thanassis) (gcc version 7.3.0 (OpenWrt GCC 7.3.0 r7676-cddd7b4c77)) #0 Wed Jan 30 12:21:02 2019
+ 
+
+Additional information - 
+

@@ -27,5 +27,8 @@ whet:	cpuidc.o whets.o
 %.o:	%.c
 	${CC} -c -o $@ ${CFLAGS} $<
 
+stats:
+	@cd my.machines/ ; grep VAX * | sort -n -k 6 | sed 's, *VAX.*= *,,'
+
 clean:
 	rm -f *.o dhry whet Dhry.txt whets.txt
