@@ -1,0 +1,65 @@
+ #####################################################
+
+ Dhrystone Benchmark 2.1 A7 32 Bit, Tue Jan  1 10:59:18 2002
+
+ Nanoseconds one Dhrystone run:       250.96
+ Dhrystones per Second:              3984675
+ VAX MIPS rating =                   2267.89
+
+ Numeric results were correct
+
+ #####################################################
+
+Whetstone Single Precision C Benchmark  vfpv4 32 Bit, Tue Jan  1 10:59:18 2002
+
+
+Loop content                   Result              MFLOPS      MOPS   Seconds
+
+N1 floating point      -1.12441420555114746       309.917               0.042
+N2 floating point      -1.12241148948669434       166.768               0.544
+N3 if then else         1.00000000000000000                2283.741     0.031
+N4 fixed point         12.00000000000000000                 951.191     0.224
+N5 sin,cos etc.         0.49904659390449524                  12.595     4.459
+N6 floating point       0.99999988079071045       289.225               1.259
+N7 assignments          3.00000000000000000                 944.135     0.132
+N8 exp,sqrt etc.        0.75110864639282227                   7.553     3.324
+
+MWIPS                                             674.057              10.014
+
+##############################################
+
+4 such cores:
+
+From File /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 28
+model name	: Intel(R) Atom(TM) CPU  330   @ 1.60GHz
+stepping	: 2
+microcode	: 0x219
+cpu MHz		: 1599.739
+cache size	: 512 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe nx lm constant_tsc arch_perfmon pebs bts aperfmperf pni dtes64 monitor ds_cpl tm2 ssse3 cx16 xtpr pdcm movbe lahf_lm dtherm
+bogomips	: 3199.47
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 32 bits physical, 48 bits virtual
+power management:
+
+From File /proc/version
+Linux version 3.2.0-4-686-pae (debian-kernel@lists.debian.org) (gcc version 4.6.3 (Debian 4.6.3-14) ) #1 SMP Debian 3.2.51-1

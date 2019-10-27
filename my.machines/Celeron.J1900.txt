@@ -1,0 +1,62 @@
+ #####################################################
+
+ Dhrystone Benchmark 2.1 A7 32 Bit, Thu Aug 15 22:08:34 2019
+
+ Nanoseconds one Dhrystone run:        99.78
+ Dhrystones per Second:             10021643
+ VAX MIPS rating =                   5703.84
+
+ Numeric results were correct
+
+ #####################################################
+
+Whetstone Single Precision C Benchmark  vfpv4 32 Bit, Thu Aug 15 22:08:34 2019
+
+
+Loop content                   Result              MFLOPS      MOPS   Seconds
+
+N1 floating point      -1.12475013732910156       898.685               0.040
+N2 floating point      -1.12274742126464844       640.541               0.396
+N3 if then else         1.00000000000000000                3621.365     0.054
+N4 fixed point         12.00000000000000000                4025.325     0.148
+N5 sin,cos etc.         0.49911010265350342                  34.373     4.563
+N6 floating point       0.99999982118606567       658.762               1.543
+N7 assignments          3.00000000000000000                2415.167     0.144
+N8 exp,sqrt etc.        0.75110864639282227                  22.570     3.107
+
+MWIPS                                            1886.075               9.994
+
+##############################################
+
+4 such cores:
+
+From File /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 55
+model name	: Intel(R) Celeron(R) CPU  J1900  @ 1.99GHz
+stepping	: 8
+microcode	: 0x811
+cpu MHz		: 2415.673
+cache size	: 1024 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm sse4_1 sse4_2 movbe popcnt tsc_deadline_timer rdrand lahf_lm 3dnowprefetch ida arat epb dtherm tpr_shadow vnmi flexpriority ept vpid tsc_adjust smep erms
+bugs		:
+bogomips	: 3993.60
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+From File /proc/version
+Linux version 4.1.15-1-lts (builduser@andyrtr) (gcc version 5.3.0 (GCC) ) #1 SMP Tue Dec 15 20:54:13 CET 2015
