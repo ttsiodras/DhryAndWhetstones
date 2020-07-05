@@ -1,0 +1,78 @@
+ #####################################################
+
+ Dhrystone Benchmark 2.1 A7 32 Bit, Sun Jul  5 22:35:14 2020
+
+ Nanoseconds one Dhrystone run:       199.48
+ Dhrystones per Second:              5012940
+ VAX MIPS rating =                   2853.12
+
+ Numeric results were correct
+
+ #####################################################
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+processor	: 0
+BogoMIPS	: 48.00
+Features	: fp asimd aes pmull sha1 sha2 crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd04
+CPU revision	: 2
+
+processor	: 1
+BogoMIPS	: 48.00
+Features	: fp asimd aes pmull sha1 sha2 crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd04
+CPU revision	: 2
+
+processor	: 2
+BogoMIPS	: 48.00
+Features	: fp asimd aes pmull sha1 sha2 crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd04
+CPU revision	: 2
+
+processor	: 3
+BogoMIPS	: 48.00
+Features	: fp asimd aes pmull sha1 sha2 crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd04
+CPU revision	: 2
+
+Serial		: c52c48ece6c4f4db
+ 
+
+From File /proc/version
+Linux version 4.4.228-rockpis (root@ubuntu1804.localdomain) (gcc version 8.3.0 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) ) #1 SMP PREEMPT Sun Jul 5 11:18:27 UTC 2020
+ 
+
+Additional information - 
+
+
+##############################################
+
+Whetstone Single Precision C Benchmark  vfpv4 32 Bit, Sun Jul  5 22:35:14 2020
+
+
+Loop content                   Result              MFLOPS      MOPS   Seconds
+
+N1 floating point      -1.12475013732910156       363.054               0.063
+N2 floating point      -1.12274742126464844       380.837               0.417
+N3 if then else         1.00000000000000000               128279640.000     0.000
+N4 fixed point         12.00000000000000000                1616.714     0.230
+N5 sin,cos etc.         0.49911010265350342                  24.597     3.998
+N6 floating point       0.99999982118606567       310.235               2.055
+N7 assignments          3.00000000000000000                 776.184     0.281
+N8 exp,sqrt etc.        0.75110864639282227                  14.909     2.949
+
+MWIPS                                            1182.732               9.994
