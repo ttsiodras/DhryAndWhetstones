@@ -1,0 +1,3 @@
+Took: 7472 milliseconds
+Dhrystones/sec: 40145
+VAX MIPS: 22
